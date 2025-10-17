@@ -98,7 +98,7 @@
           "Engineered a real-time chat application using React Native and XMPP for seamless communication.",
           "Collaborated closely with the backend team to integrate APIs and services with mobile applications."
         ],
-        "technologies": ["React", "React Native", "Typescript", "styled-component", "Redux among others"]
+        "technologies": ["React", "React Native", "Typescript", "styled-component", "Redux"]
       }
     ]
   }

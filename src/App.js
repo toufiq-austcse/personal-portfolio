@@ -94,12 +94,27 @@ function App() {
                   ))}
                 </div>
 
-                <div className="text-xs md:text-sm text-gray-500">
-                   {job.technologies.join(', ')}
+                <div className="text-xs md:text-sm text-gray-500 flex flex-wrap gap-2">
+                   {job.technologies.map((tech, index) => (
+                     <span key={index}
+                        className='inline-block bg-gray-300 text-gray-600 rounded-full px-2.5'
+                     >
+                       {tech}
+                     </span>
+                   ))}
                 </div>
               </div>
             ))}
           </div>
+        </section>
+
+        {/* Call to Action Section */}
+        <section className="mt-16 text-center">
+          <a
+          href={"mailto:"+personal.contact.email}
+          className="text-xl md:text-2xl font-bold text-gray-300 underline hover:text-white">
+            Let's build something great together ✨
+          </a>
         </section>
       </main>
     </div>

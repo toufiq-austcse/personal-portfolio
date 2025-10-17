@@ -40,7 +40,7 @@
           "Revamped the merchant app, improving overall user experience, UI design, and app performance.",
           "Collaborated closely with design and backend teams to ensure seamless data flow and consistent UX."
         ],
-        "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Zustand", "Ant design", "Vite"]
+        "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Zustand", "Ant design", "Vite", "React Native"]
       },
       {
         "id": "10minuteschool",

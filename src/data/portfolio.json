@@ -1,0 +1,105 @@
+{
+  "personal": {
+    "name": "Md. Saiful Bashar",
+    "title": "Frontend Engineer | React, React Native, Typescript, Next.js",
+    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face",
+    "contact": {
+      "email": "robal.bashar59@gmail.com",
+      "location": "Dhaka, Bangladesh"
+
+    }
+  },
+  "navigation": [
+    {
+      "id": "contact",
+      "label": "//Linkdin",
+      "href": "https://www.linkedin.com/in/saiful-bashar/"
+    },
+    {
+      "id": "github",
+      "label": "//github",
+      "href": "https://github.com/SaifulBashar"
+    }
+  ],
+  "about": {
+    "title": "//about",
+    "content": "Hi, I’m Saiful. I’m a frontend engineer with 7+ years of experience building dynamic, user-focused products across finance, e-commerce, logistics, EdTech, and food delivery. I love turning ideas into smooth, responsive web and mobile experiences that not only look great but perform even better. I’m all about creating intuitive designs that evolve through real user feedback and data."
+  },
+  "workExperience": {
+    "title": "//work experience",
+    "jobs": [
+        {
+        "id": "jiak",
+        "company": "Jiak technology",
+        "position": "Senior Software Engineer (Remote)",
+        "period": "Jun 2025 – Present",
+        "location": "Singapore",
+        "description": "JIAK is a Singapore-based SaaS startup modernizing the F&B industry with an all-in-one platform for reservations, digital ordering, POS, and analytics—helping restaurants streamline operations and grow through smarter tech.",
+        "achievements": [
+          "Optimized frontend performance by refactoring legacy code and implementing reusable components.",
+          "Revamped the merchant app, improving overall user experience, UI design, and app performance.",
+          "Collaborated closely with design and backend teams to ensure seamless data flow and consistent UX."
+        ],
+        "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Zustand", "Ant design", "Vite"]
+      },
+      {
+        "id": "10minuteschool",
+        "company": "10 Minute School",
+        "position": "Product Engineer - Frontend",
+        "period": "Nov 2023 – Jun 2025",
+        "location": "Bangladesh",
+        "description": "10 Minute School is Bangladesh's largest online learning platform, offering free classes, tutorials, and quizzes for students (grades 1–12), university admissions, and skill development.",
+        "achievements": [
+          "Optimized web bundle size, improving load speed and reducing bandwidth usage by 30%.",
+          "Improved page load speed by 40% by refactoring codebase and introducing server components.",
+          "Mentored team members and introduced modern technologies to the team."
+        ],
+        "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Zustand", "Shadcn", "Radix UI"]
+      },
+      {
+        "id": "pluang",
+        "company": "Pluang",
+        "position": "Senior Software Engineer (Remote)",
+        "period": "Nov 2021 – Aug 2023",
+        "location": "Indonesia",
+        "description": "Pluang is a financial technology (fintech) company based in Indonesia. It specializes in providing digital investment and financial education services to empower individuals to make informed financial decisions and grow their wealth.",
+        "achievements": [
+          "Developed a design system to facilitate swift and scalable development alongside a newly assembled team.",
+          "Enabled localization (l10n) for adapting the application to enable its use in a particular selected language.",
+          "Identified and resolved critical technical SEO issues, leading to a 50% reduction in page load times and improved user experience.",
+          "Presented findings in a clear and concise manner to key decision-makers."
+        ],
+        "technologies": ["React", "TypeScript", "Next.js", "MUI", "WebSocket", "TinyMCE", "GetStream", "React Testing Library"]
+      },
+      {
+        "id": "evaly",
+        "company": "Evaly",
+        "position": "Senior Software Engineer",
+        "period": "Jun 2019 – Aug 2021",
+        "location": "Bangladesh",
+        "description": "Evaly is a leading e-commerce platform in Bangladesh, offering a wide range of products and services to online shoppers.",
+        "achievements": [
+          "Developed and deployed a unified design system to maintain consistency and improve user experience across all applications.",
+          "Led and delivered high-traffic platforms across domains like e-commerce, food delivery, job portals, and payment systems.",
+          "Delivered 10+ web-based software solutions.",
+          "Created administrative dashboards to automate and optimize core business processes."
+        ],
+        "technologies": ["React", "Typescript", "Tailwind CSS", "react-query", "styled component", "Next.js", "Redux"]
+      },
+      {
+        "id": "ekkbaz",
+        "company": "EkkBaz",
+        "position": "Software Engineer",
+        "period": "2017 - 2019",
+        "location": "Bangladesh",
+        "description": "EkkBaz is empowering small businesses with inventories, financing support and to operate their business digitally.",
+        "achievements": [
+          "Designed, developed, and documented multiple customer facing React Native mobile applications and administrative portals aimed at streamlining workflow processes.",
+          "Engineered a real-time chat application using React Native and XMPP for seamless communication.",
+          "Collaborated closely with the backend team to integrate APIs and services with mobile applications."
+        ],
+        "technologies": ["React", "React Native", "Typescript", "styled-component", "Redux among others"]
+      }
+    ]
+  }
+}

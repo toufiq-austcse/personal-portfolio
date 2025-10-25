@@ -1,104 +1,162 @@
 {
   "personal": {
-    "name": "Md. Saiful Bashar",
-    "title": "Frontend Engineer | React, React Native, Typescript, Next.js",
+    "name": "Md. Toufiqul Islam",
+    "title": "Software Engineer | Node.js, Golang, Docker, Kubernetes",
     "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face",
     "contact": {
-      "email": "robal.bashar59@gmail.com",
+      "email": "toufiq.austcse@gmail.com",
       "location": "Dhaka, Bangladesh"
-
     }
   },
   "navigation": [
     {
       "id": "contact",
       "label": "//Linkdin",
-      "href": "https://www.linkedin.com/in/saiful-bashar/"
+      "href": "https://www.linkedin.com/in/toufiqcse36/"
     },
     {
       "id": "github",
       "label": "//github",
-      "href": "https://github.com/SaifulBashar"
+      "href": "https://github.com/toufiq-austcse"
     }
   ],
   "about": {
     "title": "//about",
-    "content": "Hi, I’m Saiful. I’m a frontend engineer with 7+ years of experience building dynamic, user-focused products across finance, e-commerce, logistics, EdTech, and food delivery. I love turning ideas into smooth, responsive web and mobile experiences that not only look great but perform even better. I’m all about creating intuitive designs that evolve through real user feedback and data."
+    "content": "Hi, I’m Md. Toufiqul Islam, a software engineer with 6 years of professional experience working in high volume and fast paced environments. Skilled in creating scalable and impactful products using variety of technologies including Node.js, Go and kubernetes & PostgresSQL. I’m passionate about creating robust systems, mentoring engineers, and optimizing performance at scale. I’d love to contribute to impactful projects where I can apply my technical expertise and leadership skills."
   },
   "workExperience": {
     "title": "//work experience",
     "jobs": [
-        {
+      {
         "id": "jiak",
-        "company": "Jiak technology",
+        "company": "Jiak Technology",
         "position": "Senior Software Engineer (Remote)",
-        "period": "Jun 2025 – Present",
+        "period": "September 2025 – Present",
         "location": "Singapore",
         "description": "JIAK is a Singapore-based SaaS startup modernizing the F&B industry with an all-in-one platform for reservations, digital ordering, POS, and analytics—helping restaurants streamline operations and grow through smarter tech.",
         "achievements": [
-          "Optimized frontend performance by refactoring legacy code and implementing reusable components.",
-          "Revamped the merchant app, improving overall user experience, UI design, and app performance.",
-          "Collaborated closely with design and backend teams to ensure seamless data flow and consistent UX."
+          "Owned the end-to-end development of core merchant services, including Digital Menu Management, a real-time Waitlist Queuing system, and automated merchant-facing Notifications",
+          "Developed the core public-facing RESTful API to power the customer reservation platform, building foundational features for restaurant discovery and real-time table booking",
+          "Executed a strategic refactoring of a legacy codebase, establishing clearer design patterns that improved code\nreusability and accelerated the pace of future feature development",
+          "Implemented an asynchronous job queue using Redis and BullMQ to reliably offload background tasks, such as\nsending Twilio notifications, which improved API response times",
+          "Partnered with frontend and design teams to define clear API contracts, ensuring seamless data integration and a\nconsistent user experience across the platform"
         ],
-        "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Zustand", "Ant design", "Vite", "React Native"]
+        "technologies": [
+          "Node.js",
+          "PostgreSQL",
+          "Redis",
+          "BullMQ",
+          "Twilio",
+          "WebSocket",
+          "Docker",
+          "Kubernetes"
+        ]
       },
       {
         "id": "10minuteschool",
         "company": "10 Minute School",
-        "position": "Product Engineer - Frontend",
-        "period": "Nov 2023 – Jun 2025",
+        "position": "Lead Software Engineer",
+        "period": "August 2019 – August 2025",
         "location": "Bangladesh",
         "description": "10 Minute School is Bangladesh's largest online learning platform, offering free classes, tutorials, and quizzes for students (grades 1–12), university admissions, and skill development.",
         "achievements": [
-          "Optimized web bundle size, improving load speed and reducing bandwidth usage by 30%.",
-          "Improved page load speed by 40% by refactoring codebase and introducing server components.",
-          "Mentored team members and introduced modern technologies to the team."
+          "Promoted through Software Engineer and Senior Software Engineer to Lead for consistent high performance and leadership",
+          "Rearchitected the caching strategy for the critical Central Routine API, slashing peak-hour p99 latency by over 85% to ensure a reliable user experience under high load",
+          "Led Live Video Streaming infrastructure for conducting live classes with real-time interactions. Serves around 30k students participating in different live classes and handling approximately 100k RPM during peak hours every day",
+          "Architected and deployed an in-house Video Processing Pipeline, reducing monthly operational costs by 75% while processing over 800 videos",
+          "Reduced cloud infrastructure costs by 60% through strategic optimization initiatives",
+          "Led a sub-team to develop central Learning Report service that improved user engagement by providing comprehensive weekly and monthly reports",
+          "Led end-to-end implementation of OpenTelemetry across microservices that enhanced system monitoring capabilities",
+          "Developed REST API for different microservices of 10MS Billing System, handling 10k+ transactions every day",
+          "Designed and led the development of an automated push notification system using event-driven Microservice Architecture",
+          "Implemented REST API for Exam Service, resulting in onboarding 140k new users",
+          "Collaborated with cross functional teams to design, develop, and deploy features to production",
+          "Monitored post-production feature performance to identify and implement further optimization strategies",
+          "Mentored junior engineers & interns to build production ready services",
+          "Integrated AWS tools like S3, SNS, SQS and Lambda with the application"
         ],
-        "technologies": ["React", "TypeScript", "Next.js", "Tailwind CSS", "Zustand", "Shadcn", "Radix UI"]
+        "technologies": [
+          "Node.js",
+          "Go(Golang)",
+          "NestJS",
+          "RabbitMQ",
+          "AWS",
+          "Firebase",
+          "Docker",
+          "Kubernetes",
+          "PostgreSQL",
+          "MongoDB"
+        ]
       },
       {
-        "id": "pluang",
-        "company": "Pluang",
-        "position": "Senior Software Engineer (Remote)",
-        "period": "Nov 2021 – Aug 2023",
-        "location": "Indonesia",
-        "description": "Pluang is a financial technology (fintech) company based in Indonesia. It specializes in providing digital investment and financial education services to empower individuals to make informed financial decisions and grow their wealth.",
-        "achievements": [
-          "Developed a design system to facilitate swift and scalable development alongside a newly assembled team.",
-          "Enabled localization (l10n) for adapting the application to enable its use in a particular selected language.",
-          "Identified and resolved critical technical SEO issues, leading to a 50% reduction in page load times and improved user experience.",
-          "Presented findings in a clear and concise manner to key decision-makers."
-        ],
-        "technologies": ["React", "TypeScript", "Next.js", "MUI", "WebSocket", "TinyMCE", "GetStream", "React Testing Library"]
-      },
-      {
-        "id": "evaly",
-        "company": "Evaly",
-        "position": "Senior Software Engineer",
-        "period": "Jun 2019 – Aug 2021",
+        "id": "khamare",
+        "company": "Khamar-e",
+        "position": "Full Stack Developer",
+        "period": "February 2019 – July 2019",
         "location": "Bangladesh",
-        "description": "Evaly is a leading e-commerce platform in Bangladesh, offering a wide range of products and services to online shoppers.",
+        "description": "Khamar-e is an agri-tech startup working towards a data-driven farming and supply chain ecosystem in Bangladesh",
         "achievements": [
-          "Developed and deployed a unified design system to maintain consistency and improve user experience across all applications.",
-          "Led and delivered high-traffic platforms across domains like e-commerce, food delivery, job portals, and payment systems.",
-          "Delivered 10+ web-based software solutions.",
-          "Created administrative dashboards to automate and optimize core business processes."
+          "Developed front-end & back-end of a Health Tracker IOT device for tracking the activity of cattle"
         ],
-        "technologies": ["React", "Typescript", "Tailwind CSS", "react-query", "styled component", "Next.js", "Redux"]
+        "technologies": [
+          "Node.js",
+          "RabbitMQ",
+          "MongoDB",
+          "React"
+        ]
+      }
+    ]
+  },
+  "personalProjects": {
+    "title": "//personal projects",
+    "projects": [
+      {
+        "id": "video-touch",
+        "name": "Video Touch",
+        "description": "A Video Hosting & Streaming Platform",
+        "githubUrl": "https://github.com/toufiq-austcse/video-touch",
+        "achievements": [
+          "Implemented video transcoding and thumbnail generation with an asynchronous job queue",
+          "Streamed videos on demand (VOD) using a Content Delivery Network (CDN) for optimized performance",
+          "Developed a user-friendly dashboard with Next.js and shadcn/ui for a seamless user experience"
+        ],
+        "technologies": [
+          "Node.js",
+          "NestJS",
+          "GraphQL",
+          "MongoDB",
+          "RabbitMQ",
+          "BullMQ",
+          "S3",
+          "CloudFront",
+          "Github Action",
+          "Docker",
+          "Next.js",
+          "shadcn/ui"
+        ]
       },
       {
-        "id": "ekkbaz",
-        "company": "EkkBaz",
-        "position": "Software Engineer",
-        "period": "2017 - 2019",
-        "location": "Bangladesh",
-        "description": "EkkBaz is empowering small businesses with inventories, financing support and to operate their business digitally.",
+        "id": "deploybl",
+        "name": "Deploybl",
+        "description": "Platform as a Service (PaaS)",
+        "githubUrl": "https://github.com/toufiq-austcse/deploybl",
         "achievements": [
-          "Designed, developed, and documented multiple customer facing React Native mobile applications and administrative portals aimed at streamlining workflow processes.",
-          "Engineered a real-time chat application using React Native and XMPP for seamless communication.",
-          "Collaborated closely with the backend team to integrate APIs and services with mobile applications."
+          "Full-Stack application to simplify the deployment and management of applications",
+          "Deploy any application written in any language with just two clicks. No need to buy and configure a server",
+          "Automatic unique URL generation for each deployed application. No need to buy and configure domain"
         ],
-        "technologies": ["React", "React Native", "Typescript", "styled-component", "Redux"]
+        "technologies": [
+          "Go(Golang)",
+          "Gin",
+          "MongoDB",
+          "RabbitMQ",
+          "Traefik",
+          "S3",
+          "Firebase",
+          "Docker",
+          "Next.js",
+          "shadcn/ui"
+        ]
       }
     ]
   }

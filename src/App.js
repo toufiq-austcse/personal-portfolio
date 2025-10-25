@@ -3,7 +3,7 @@
 import portfolioData from './data/portfolio.json';
 
 function App() {
-  const { personal, navigation, about, workExperience } = portfolioData;
+  const { personal, navigation, about, workExperience, personalProjects } = portfolioData;
 
   return (
     <div className="min-h-screen bg-black text-white font-mono">
@@ -102,6 +102,58 @@ function App() {
                        {tech}
                      </span>
                    ))}
+                </div>
+              </div>
+            ))}
+          </div>
+        </section>
+
+        {/* Personal Projects Section */}
+        <section className="mt-12 md:mt-16">
+          <h2 className="text-lg md:text-xl font-bold mb-6 text-gray-400">
+            {personalProjects.title}
+          </h2>
+
+          <div className="space-y-6 md:space-y-8">
+            {personalProjects.projects.map((project) => (
+              <div key={project.id} className="border border-gray-700 p-4 md:p-6">
+                <div className="flex flex-col sm:flex-row justify-between items-start gap-3 sm:gap-4 mb-4">
+                  <a
+                    href={project.githubUrl}
+                    target="_blank"
+                    rel="noopener noreferrer"
+                    className="text-gray-400 text-sm md:text-base hover:text-white transition-colors underline order-2 sm:order-1"
+                  >
+                    {project.githubUrl}
+                  </a>
+                  <span className="border border-gray-600 px-3 py-1 text-xs md:text-sm order-1 sm:order-2 self-start">
+                    {project.name}
+                  </span>
+                </div>
+
+                <p className="text-gray-300 text-sm md:text-base mb-4 leading-relaxed">
+                  {project.description}
+                </p>
+
+                <div className="space-y-3 md:space-y-4 text-gray-300 text-sm md:text-base mb-4">
+                  {project.achievements.map((achievement, index) => (
+                    <div key={index} className="flex items-start space-x-2">
+                      <span className="text-white flex-shrink-0">●</span>
+                      <p className="leading-relaxed">
+                        {achievement}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+
+                <div className="text-xs md:text-sm text-gray-500 flex flex-wrap gap-2">
+                  {project.technologies.map((tech, index) => (
+                    <span key={index}
+                      className='inline-block bg-gray-300 text-gray-600 rounded-full px-2.5'
+                    >
+                      {tech}
+                    </span>
+                  ))}
                 </div>
               </div>
             ))}

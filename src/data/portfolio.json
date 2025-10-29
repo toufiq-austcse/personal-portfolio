@@ -22,7 +22,7 @@
   ],
   "about": {
     "title": "//about",
-    "content": "Hi, I’m Md. Toufiqul Islam, a software engineer with 6 years of professional experience working in high volume and fast paced environments. Skilled in creating scalable and impactful products using variety of technologies including Node.js, Go and kubernetes & PostgresSQL. I’m passionate about creating robust systems, mentoring engineers, and optimizing performance at scale. I’d love to contribute to impactful projects where I can apply my technical expertise and leadership skills."
+    "content": "Hi, I’m Md. Toufiqul Islam, a software engineer with 6 years of professional experience working in high volume and fast paced environments. Skilled in creating scalable and impactful products using variety of technologies including Node.js, Go, Docker & kubernetes. I’m passionate about creating robust systems, mentoring engineers, and optimizing performance at scale. I’d love to contribute to impactful projects where I can apply my technical expertise and leadership skills."
   },
   "workExperience": {
     "title": "//work experience",
@@ -35,8 +35,8 @@
         "location": "Singapore",
         "description": "JIAK is a Singapore-based SaaS startup modernizing the F&B industry with an all-in-one platform for reservations, digital ordering, POS, and analytics—helping restaurants streamline operations and grow through smarter tech.",
         "achievements": [
-          "Owned the end-to-end development of core merchant services, including Digital Menu Management, a real-time Waitlist Queuing system, and automated merchant-facing Notifications",
-          "Developed the core public-facing RESTful API to power the customer reservation platform, building foundational features for restaurant discovery and real-time table booking",
+          "Owned end-to-end development of core merchant services, including Digital Menu Management, real-time Waitlist\nQueuing, and automated merchant-facing Notifications, serving 50+ restaurants",
+          "Developed the core public-facing REST API to power the customer reservation platform, building foundational features for restaurant discovery and table booking",
           "Executed a strategic refactoring of a legacy codebase, establishing clearer design patterns that improved code\nreusability and accelerated the pace of future feature development",
           "Implemented an asynchronous job queue using Redis and BullMQ to reliably offload background tasks, such as\nsending Twilio notifications, which improved API response times",
           "Partnered with frontend and design teams to define clear API contracts, ensuring seamless data integration and a\nconsistent user experience across the platform"

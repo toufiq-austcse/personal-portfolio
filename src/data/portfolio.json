@@ -2,7 +2,7 @@
   "personal": {
     "name": "Md. Toufiqul Islam",
     "title": "Software Engineer | Node.js, Golang, Docker, Kubernetes",
-    "profileImage": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=200&h=200&fit=crop&crop=face",
+    "profileImage": "https://media.licdn.com/dms/image/v2/D5603AQHNuHF0LaI9XQ/profile-displayphoto-scale_400_400/B56ZlDHvoGHkAg-/0/1757767729265?e=1775692800&v=beta&t=en4XYtuEHX7kX7qXMsNRsQyttZSPjp7JZcftA90c8jo",
     "contact": {
       "email": "toufiq.austcse@gmail.com",
       "location": "Dhaka, Bangladesh"
@@ -28,10 +28,30 @@
     "title": "//work experience",
     "jobs": [
       {
+        "id": "rbd",
+        "company": "RoBenDevs",
+        "position": "Lead Software Engineer",
+        "period": "January 2026 – Present",
+        "location": "Dhaka, Bangladesh",
+        "description": "RoBenDevs is a fast-growing company based in Bangladesh developing innovative solutions that meet the needs of today's ever-changing technological landscape.",
+        "achievements": [
+          "Leading the Full Stack Engineering team"
+        ],
+        "technologies": [
+          "Node.js",
+          "PostgreSQL",
+          "Redis",
+          "RabbitMQ",
+          "WebSocket",
+          "Docker",
+          "Kubernetes"
+        ]
+      },
+      {
         "id": "jiak",
         "company": "Jiak Technology",
         "position": "Senior Software Engineer (Remote)",
-        "period": "September 2025 – Present",
+        "period": "September 2025 – December 2025",
         "location": "Singapore",
         "description": "JIAK is a Singapore-based SaaS startup modernizing the F&B industry with an all-in-one platform for reservations, digital ordering, POS, and analytics—helping restaurants streamline operations and grow through smarter tech.",
         "achievements": [
@@ -55,12 +75,12 @@
       {
         "id": "10minuteschool",
         "company": "10 Minute School",
-        "position": "Lead Software Engineer",
+        "position": "Engineering Engineer",
         "period": "August 2019 – August 2025",
         "location": "Bangladesh",
         "description": "10 Minute School is Bangladesh's largest online learning platform, offering free classes, tutorials, and quizzes for students (grades 1–12), university admissions, and skill development.",
         "achievements": [
-          "Promoted through Software Engineer and Senior Software Engineer to Lead for consistent high performance and leadership",
+          "Promoted through Software Engineer and Senior Software Engineer to Engineering Manager for consistent high performance and leadership",
           "Rearchitected the caching strategy for the critical Central Routine API, slashing peak-hour p99 latency by over 85% to ensure a reliable user experience under high load",
           "Led Live Video Streaming infrastructure for conducting live classes with real-time interactions. Serves around 30k students participating in different live classes and handling approximately 100k RPM during peak hours every day",
           "Architected and deployed an in-house Video Processing Pipeline, reducing monthly operational costs by 75% while processing over 800 videos",
@@ -156,6 +176,21 @@
           "Docker",
           "Next.js",
           "shadcn/ui"
+        ]
+      }
+    ]
+  },
+  "education": {
+    "title": "//education",
+    "institutions": [
+      {
+        "id": "aust",
+        "name": "Ahsanullah University of Science and Technology",
+        "location": "Dhaka, Bangladesh",
+        "degree": "Bachelor of Science in Computer Science and Engineering",
+        "period": "November 2015 – February 2020",
+        "achievements": [
+          "Undergraduate Thesis: \"Greenness Analysis of Dhaka City Using the NDVI MODIS Satellite Database\""
         ]
       }
     ]
